@@ -6,6 +6,8 @@
  
  
  git clone https://github.com/malayaj2000/Recommendation-System/tree/main/anime%20recommendation
- 
-### then run main.py using the command 
+ ### open your command prompt and navigate to the folder
+### then run main.py using the command in your command prompt
  python main.py
+### copy the url produced in your web brower 
+## Have fun

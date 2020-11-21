@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="shadow p-3 mb-5 bg-white rounded">
+  <h1 style="color:rgb(95, 11, 173)">Welcome to the Anime recommender</h1>
+  <h3 style="color:rgb(95, 11, 173)">Enter the Anime series you like to get recommendations.</h3>
+</div>
+
+  <form action="{{url_for('recommend')}}">
+    <input type="text" name="movie" class="form-control" placeholder="Movie name here">
+    <br>
+    <input type="submit" class="btn btn-info" value="Enter">
+  </form>
+{% endblock %}

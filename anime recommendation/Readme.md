@@ -7,5 +7,5 @@
  
  git clone https://github.com/malayaj2000/Recommendation-System/tree/main/anime%20recommendation
  
-### then run main.py 
+### then run main.py using the command 
  python main.py
